@@ -1,4 +1,7 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&family=Rubik+Dirt&display=swap');
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +38,123 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+*/ html {
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  /* height: 100%; */
+  /* position: relative; */
+  /* padding-bottom: 3rem; */
+  /* margin: 0; */
+  /* padding: 0; */
+  text-align: center;
+  width: 100%;
+  color: azure;
+  /* background: rgb(161, 228, 161); */
+  /* background: linear-gradient(106.7deg, rgb(245, 167, 191) -6.2%, rgb(201, 218, 238) 46.4%, rgb(164, 240, 229) 86.4%); */
+  /* background: #D0F0C0; */
+  /* background-image: url(./components/img\ 1.png); */
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* text-align: center; */
+  background-attachment: fixed;
+
+  background-repeat: no-repeat;
+}
+
+.logo {
+  font-family: 'Rubik Dirt', cursive;
+  width: 100%;
+  text-align: center;
+  background: rgb(8, 143, 143);
+  display: flex;
+  /* flex-direction: row;
+  /* justify-content: space-between; */
+  align-items: center;
+
+}
+
+.main {
+  margin: 40px;
+  /* background-image: url(./components/img\ 1.png); */
+  /* font-family: 'Rubik Dirt', cursive; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-attachment: fixed;
+  /* background-repeat: no-repeat; */
+}
+
+img {
+  width: 20%;
+  height: 30%;
+}
+
+h1 {
+  width: 70%;
+}
+
+.conditional-render {
+  margin-top: 270px;
+}
+
+.btn {
+  background: whitesmoke;
+  border-radius: 50%;
+  border-color: aliceblue;
+  font-size: 18px;
+  padding: 7px;
+}
+
+h2 {
+  text-align: center;
+  font-size: xx-large;
+  font-family: 'Fasthand', cursive;
+  /* color: whitesmoke; */
+  color: black
+}
+
+.createbtn {
+  font-size: 20px;
+  border-radius: 4%;
+  border-color: aliceblue;
+  padding: 7px;
+}
+
+ul {
+  margin-top: 50px;
+  background: rgb(87, 223, 223);
+  border-radius: 49%;
+  display: flexbox;
+  flex-direction: column;
+}
+
+.task {
+  background: rgb(54, 158, 158);
+  border-radius: 4%;
+  padding: 20px;
+  font-size: larger;
+}
+
+.tasklist {
+  padding: 30px;
+}
+
+ul {
+  padding-top: 40px;
+  /* padding-bottom: 30px; */
+}
+
+li {
+  margin-bottom: 10px;
 }
