@@ -25,7 +25,7 @@ const Taskmanagement = () => {
     } else if (!date) {
       return toast.warning("Please set a due date for task");
     }
-    const oldTask = [...task];
+    // const oldTask = [...task];
     // let newTask = {
     //   taskTitle: title,
     //   taskDescription: description,
